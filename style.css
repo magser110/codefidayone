@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.main_header {
+    color: blueviolet;
+    padding-right: 0%;
+
+}
+
+.paragraph {
+    margin: auto;
+    padding: 0%;
+    color: lightblue;
+
+
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    padding: 100;
+    margin: auto;
+}
+
+.about {
+    background-color: aquamarine;
+    padding: 25%;
+    margin: 0%;
+}
+
+.container {
+
+}
+
+.item {
+    padding: 50px;
+    margin: 12px;
+    border: 2px solid black;
+}
+
+.form-container {
+    width: 500px;
+    
+}
+
+
+.form {
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
