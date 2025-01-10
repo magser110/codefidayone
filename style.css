@@ -1,23 +1,43 @@
 * {
     box-sizing: border-box;
+    
 }
 
 .main_header {
     color: blueviolet;
     padding-right: 0%;
+}
 
+div {
+    width: 20rem;
+    padding: auto;
+    border: 20px;
+    margin: 2rem;
+}
+/* don't understand why initial underline isn't going away and why menu is still vertical*/
+.header_ul {
+    list-style: none;
+    text-decoration: none;    
+    flex-direction: row;
+   
+}
+
+a:hover {
+    color: lime;
+    text-decoration: underline;
 }
 
 .paragraph {
     margin: auto;
     padding: 0%;
-    color: lightblue;
+    color: rgb(28, 31, 32);
+    text-align: center;
 
 
 }
 
 .link {
-    color: red;
+    color: rgb(241, 16, 174);
     text-decoration: none;
     font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -27,8 +47,8 @@
 }
 
 .about {
-    background-color: aquamarine;
-    padding: 25%;
+    background-color: rgb(201, 124, 231);
+    padding: 0%;
     margin: 0%;
 }
 
@@ -53,4 +73,53 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: bisque;
+    font-size: 4em;
+}
+
+input[type="text"], input[type="email"] {
+    padding: auto;
+    margin: 5px 0;
+    width: 150px;
+}
+
+input[type="submit"]{
+    padding: 20px 50px;
+    background-color: palevioletred;
+    color: black;
+    border: 10px;
+    cursor: pointer;
+}
+
+body {
+    background-color: lightsalmon;
+}
+
+@media (min-width: 600px) {
+    
+body {
+    background-color: lightsalmon;
+    padding: auto;
+}
+}
+
+@media (max-width: 599px) {
+    
+body {
+    background-color: lightblue;
+    padding: 10vw;
+}
+    
+}
+
+.form-group {
+    width: 20px;
+    padding: auto;
+    border: 10px;
+    margin: 2em;
+}
+
+.footer {
+    background-color: darkcyan;
+    font-family: cursive;
 }
